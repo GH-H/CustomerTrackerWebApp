@@ -1,5 +1,4 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <!DOCTTYPE html>
 
 <html>
@@ -7,6 +6,11 @@
 <head>		
 	
 	<title>List Customers</title>
+	<!-- reference css style sheet -->
+	
+	<link type = "text/css"
+			rel = "stylesheet"
+			href = "${pageContext.request.contextPath}/resources/css/style.css"/>
 	
 </head>
 
